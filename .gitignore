@@ -1,0 +1,44 @@
+# Environment & Local Secrets
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environments & Caches
+env/
+venv/
+.venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Machine Learning Models & Trained Weights (Private Data)
+models/*.yml
+models/*.xml
+models/*.json
+models/*.onnx
+models/*.pb
+models/*.h5
+!models/README.md
+
+# Known Face Dataset (Private Images)
+dataset/*
+!dataset/README.md
+
+# Intruder Snapshots & Audit Logs (Private Evidence)
+intruders/*
+!intruders/.gitkeep
+
+# Developer Tools & Generated PDFs
+generate_pdf.py
+*.pdf
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+.gemini/
+*.swp
+*.swo
+.DS_Store

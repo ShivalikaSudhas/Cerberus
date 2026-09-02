@@ -1,0 +1,7 @@
+opencv-contrib-python>=5.0.0.93
+paho-mqtt>=2.1.0
+pyttsx3>=2.99
+pywin32>=312
+numpy>=2.2.6
+python-dotenv>=1.0.0
+pydantic>=2.0.0
