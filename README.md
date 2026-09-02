@@ -167,7 +167,3 @@ See [CHANGELOG.md](CHANGELOG.md) for complete version history and details.
 
 ---
 
-## 📄 License & Academic Reference
-
-Built according to the **SmartHome Lock-CCN REPORT** specifications for Computer Communication and Network (BCS401G).  
-Licensed under the [MIT License](LICENSE).
